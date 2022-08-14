@@ -14,7 +14,7 @@ RUN go mod tidy
 
 #RUN go mod download
 
-RUN go build -o/go-webapp-sample
+RUN go build -o /go-webapp-sample
 
 EXPOSE 8080
 
